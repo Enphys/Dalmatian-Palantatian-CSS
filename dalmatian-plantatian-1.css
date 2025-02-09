@@ -184,8 +184,8 @@ h1, h2, h3 {
 
 /* Announcements */
 .card-footer {
-    background-color: #a48065 !important; /* Match your theme */
-    color: #e5d2b8 !important; /* Adjust to a readable color */
+    background-color: #5b6270 !important; /* Match your theme */
+    color: #252525 !important; /* Adjust to a readable color */
 }
 
 .card-footer a {
@@ -199,7 +199,7 @@ h1, h2, h3 {
 
 /* Links */
 a {
-    color: #e0dad0 !important;
+    color: #5b6270 !important;
     text-decoration: none !important;
     transition: color 0.3s ease-in-out !important;
 }
@@ -211,11 +211,11 @@ a:hover {
 
 /* Buttons */
 button {
-    background: #9b6d44 !important;
+    background: #5b6270 !important;
     color: #e5d2b8 !important;
     border: none !important;
     padding: 8px 12px !important;
-    font-family: 'Merienda', cursive !important;
+    font-family: 'Boogaloo', cursive !important;
     cursor: pointer !important;
     transition: background 0.3s ease !important;
 }
