@@ -38,8 +38,10 @@ html, body {
     color: #dce4f3 !important; /* Change text color to match your theme */
 }
 
-#header .navbar-status a {
-    color: #dce4f3 !important; /* Light blue text for Messages & Modbox */
+#header .navbar-status a,
+#header .navbar-status .nav-link,
+#header .navbar-status .nav-link a {
+    color: #dce4f3 !important;
 }
 
 
