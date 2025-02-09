@@ -38,10 +38,10 @@ html, body {
     color: #dce4f3 !important; /* Change text color to match your theme */
 }
 
-/* Change color of Modbox, Messages, and currency text */
 #header .navbar-status a {
-    color: #dce4f3 !important; /* Light blue text */
+    color: #dce4f3 !important; /* Light blue text for Messages & Modbox */
 }
+
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
@@ -84,11 +84,12 @@ h1, h2, h3 {
 }
 
 /* Links */
-a {
+a:not(#header .navbar-status a) {
     color: #5b6270 !important;
     text-decoration: none !important;
     transition: color 0.3s ease-in-out !important;
 }
+
 
 a:hover {
     color: #ffffff !important;
