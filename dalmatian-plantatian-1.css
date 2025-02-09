@@ -34,8 +34,9 @@ html, body {
 }
 
 /* WELCOME BACK */
-#header .navbar-text {
-    color: #dce4f3;
+#header .navbar-status {
+    background-color: #385f71;
+    color: #fff;
     height: 37px;
 }
 
