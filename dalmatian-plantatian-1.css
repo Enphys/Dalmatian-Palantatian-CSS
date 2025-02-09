@@ -10,7 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body, p, span, li, a {
     font-family: 'Boogaloo', sans-serif; /* Body text */
+    color: #5b6270 !important; /* Light blueish text */
 }
+
 
 /* Custom Cursor */
 body {
