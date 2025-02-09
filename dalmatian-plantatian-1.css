@@ -60,12 +60,6 @@ h1, h2, h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Announcements Text Color */
-.card-text p.text-center, 
-.card-body p.text-center {
-    color: #dce4f3 !important;
-}
-
 /* Links */
 a {
     color: #5b6270 !important;
