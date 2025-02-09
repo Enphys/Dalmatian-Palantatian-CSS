@@ -13,9 +13,23 @@ body, p, span, li, a {
     color: #dddee2 !important; /* Light blueish text */
 }
 
+/* Announcements */
+.card-body {
+    background-color: #dce4f3 !important;
+    color: #5b6270 !important;
+}
+
 .card-footer {
-    background-color: #f0f0f0 !important; /* Match your theme */
+    background-color: #dce4f3 !important; /* Match your theme */
     color: #5b6270 !important; /* Adjust to a readable color */
+}
+
+.card-footer a {
+    color: #403832 !important; /* Link color */
+}
+
+.card-footer a:hover {
+    color: #ffba5a !important; /* Hover effect */
 }
 
 /* Custom Cursor */
