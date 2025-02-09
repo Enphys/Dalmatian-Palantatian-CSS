@@ -38,6 +38,16 @@ html, body {
     color: #dce4f3 !important; /* Change text color to match your theme */
 }
 
+/* Change color of Modbox, Messages, and currency text */
+a.dib, 
+a[href="/modbox"], 
+.user_current_gc, 
+.user_current_sc, 
+.user_current_gc span, 
+.user_current_sc span {
+    color: #dce4f3 !important;
+}
+
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
     background: #dce4f3 !important; /* Dark earthy brown */
