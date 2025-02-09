@@ -61,8 +61,8 @@ h1, h2, h3 {
 }
 
 /* Announcements Text Color */
-.card-text .text-center, 
-.card-body .text-center {
+.card-text p.text-center, 
+.card-body p.text-center {
     color: #dce4f3 !important;
 }
 
