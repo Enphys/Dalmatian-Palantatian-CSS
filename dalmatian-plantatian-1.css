@@ -19,6 +19,9 @@ body, p, span, li, a {
     color: #5b6270 !important;
 }
 
+.card-text {
+    color: #5b6270 !important;
+
 .card-footer {
     background-color: #dce4f3 !important; /* Match your theme */
     color: #5b6270 !important; /* Adjust to a readable color */
