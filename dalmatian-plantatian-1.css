@@ -33,10 +33,22 @@ html, body {
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
-    background: #dce4f3 !important; /* Light background */
+    background: #dce4f3 !important; /* Dark earthy brown */
     border: 2px solid #252525 !important;
     padding: 10px !important;
     border-radius: 10px !important;
+}
+
+.table .left {
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
+}
+
+.bg-tertiary {
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
+}
+
+.bottom {
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
 }
 
 /* Remove striped effect from the table */
