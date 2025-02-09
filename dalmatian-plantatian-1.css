@@ -26,8 +26,8 @@ a:hover {
 html, body {
     background: url('https://64.media.tumblr.com/e132dd5850c719a9afc4c81a86086a83/ee62b7d0b66f839f-0e/s1280x1920/e0d7926a0e5901a98d2b6e59a98f2da77684e6ae.pnj') no-repeat center center fixed !important;
     background-size: cover !important;
-    color: #e5d2b8 !important; /* Light beige for text */
-    font-family: 'Merienda', cursive !important;
+    color: #dce4f3 !important; /* Light beige for text */
+    font-family: 'Boogaloo', cursive !important;
     height: 100% !important;
     min-height: 100vh !important;
 }
@@ -40,14 +40,14 @@ html, body {
 }
 /* WELCOME BACK */
 #header .navbar-status {
-    background-color: #bccae4;
+    background-color: #5b6270;
     color: #fff;
     height: 37px;
 }
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
-    background: #5b6270 !important; /* Dark earthy brown */
+    background: #dce4f3 !important; /* Dark earthy brown */
     border: 2px solid #252525 !important;
     padding: 10px !important;
     border-radius: 10px !important;
@@ -90,45 +90,45 @@ html, body {
 #main table.small, 
 #main table td small, 
 #main table th small {
-    color: #433832 !important; /* Light beige to match theme */
+    color: #252525 !important; /* Light beige to match theme */
 }
 
 /* Target links within forum posts */
 #main table a, 
 #main table td a, 
 #main table th a {
-    color: #f6ebdc !important; /* Warm brown for links */
+    color: #5b6270 !important; /* Warm brown for links */
     text-decoration: none !important;
 }
 
 /* Header Styling */
 #header {
-    background: #403832 !important;
-    color: #e5d2b8 !important;
+    background: #252525 !important;
+    color: #dce4f3 !important;
     text-align: center !important;
     padding: 15px 0 !important;
     font-family: 'Merienda', cursive !important;
-    border-bottom: 2px solid #9b6d44 !important;
+    border-bottom: 2px solid #252525 !important;
 }
 
 /* Navigation Bar */
 .nav-tabs .nav-link {
-    border: 1px solid #221e16;
+    border: 1px solid #252525;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #000000;
-    background-color: #dfcaab;
-    border-color: #a48065;
+    background-color: #dce4f3;
+    border-color: #252525;
 }
 .nav-tabs {
-    border-bottom: 1px solid #d3bc97 !important;
+    border-bottom: 1px solid #252525 !important;
 }
 
 /* Home Tag Groupname */
 #header .breadcrumb-nav {
-    background-color: #dfcaab;
+    background-color: #bccae4;
 }
 .breadcrumb-item.active {
     color: #000000;
@@ -147,8 +147,8 @@ html, body {
 /* All side cards */
 #sidebar .card {
     border: 1px solid #000000;
-    border-bottom: 8px solid #403832;
-    background-color: #a48065;
+    border-bottom: 8px solid #5b6270;
+    background-color: #dce4f3;
     margin-bottom: 15px;
     width: 100%;
     border-radius: 5%;
@@ -177,7 +177,7 @@ div.progress {
 
 /* Titles */
 h1, h2, h3 {
-    font-family: 'Merienda', cursive !important;
+    font-family: 'Boogaloo', cursive !important;
     color: #e5d2b8 !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
