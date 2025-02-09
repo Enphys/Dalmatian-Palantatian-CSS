@@ -39,14 +39,11 @@ html, body {
 }
 
 /* Change color of Modbox, Messages, and currency text */
-a.dib, 
-a[href="/modbox"], 
-.user_current_gc, 
-.user_current_sc, 
-.user_current_gc span, 
-.user_current_sc span {
-    color: #dce4f3 !important;
+#header .navbar-status a,
+.navbar-status .nav-link a {
+    color: #dce4f3 !important; /* Light blue text */
 }
+
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
