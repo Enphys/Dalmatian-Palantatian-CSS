@@ -95,6 +95,10 @@ a:not(#header .navbar-status a,
     transition: color 0.3s ease-in-out !important;
 }
 
+#header .navbar-status a {
+    color: #dce4f3 !important;
+}
+
 a:hover {
     color: #ffffff !important;
 }
