@@ -61,7 +61,8 @@ h1, h2, h3 {
 }
 
 /* Announcements Text Color */
-.card-footer, .card-text, .group-news-card .card-body {
+.card-text .text-center, 
+.card-body .text-center {
     color: #dce4f3 !important;
 }
 
