@@ -34,7 +34,7 @@ html, body {
 }
 
 /* WELCOME BACK */
-#header .navbar-status {
+#header .navbar-text {
     color: #dce4f3;
     height: 37px;
 }
