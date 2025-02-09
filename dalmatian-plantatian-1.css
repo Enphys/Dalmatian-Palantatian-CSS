@@ -10,30 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body, p, span, li, a {
     font-family: 'Boogaloo', sans-serif; /* Body text */
-    color: #dddee2 !important; /* Light blueish text */
+    color: #5b6270 !important; /* Light blueish text */
 }
 
-/* Announcements */
-.card-body {
-    background-color: #dce4f3 !important;
-    color: #5b6270 !important;
-}
-
-.card-text {
-    color: #5b6270 !important;
-
-.card-footer {
-    background-color: #dce4f3 !important; /* Match your theme */
-    color: #5b6270 !important; /* Adjust to a readable color */
-}
-
-.card-footer a {
-    color: #403832 !important; /* Link color */
-}
-
-.card-footer a:hover {
-    color: #ffba5a !important; /* Hover effect */
-}
 
 /* Custom Cursor */
 body {
@@ -52,32 +31,6 @@ html, body {
     font-family: 'Boogaloo', cursive !important;
     height: 100% !important;
     min-height: 100vh !important;
-}
-
-/* WELCOME BACK */
-.navbar-text {
-    color: #dce4f3 !important; /* Change text color to match your theme */
-}
-
-#header .navbar-status a,
-#header .navbar-status .nav-link,
-#header .navbar-status .nav-link a {
-    color: #dce4f3 !important;
-}
-
-/* Navigation Bar */
-.nav-tabs .nav-link {
-    border: 1px solid #252525;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-}
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #000000;
-    background-color: #f0f0f0;
-    border-color: #385f71;
-}
-.nav-tabs {
-    border-bottom: 1px solid #f0f0f0 !important;
 }
 
 /* Content & Sidebar Styling */
@@ -118,13 +71,11 @@ html, body {
 h1, h2, h3 {
     font-family: 'Boogaloo', cursive !important;
     color: #e5d2b8 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Links */
-a:not(#header .navbar-status a, 
-      #header .navbar-status .nav-link a, 
-      #header .navbar-status .nav-item a, 
-      #header .navbar-status a.dib) {
+a {
     color: #5b6270 !important;
     text-decoration: none !important;
     transition: color 0.3s ease-in-out !important;
@@ -132,17 +83,14 @@ a:not(#header .navbar-status a,
 
 a:hover {
     color: #ffffff !important;
-}
-
-#sidebar {
-    background: none !important; /* Removes any default background */
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Buttons */
 button {
     background: #5b6270 !important;
     color: #e5d2b8 !important;
-    border: #252525 !important;
+    border: none !important;
     padding: 8px 12px !important;
     font-family: 'Boogaloo', cursive !important;
     cursor: pointer !important;
