@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body, p, span, li, a {
     font-family: 'Boogaloo', sans-serif; /* Body text */
-    color: #5b6270 !important; /* Light blueish text */
+    color: #dddee2 !important; /* Light blueish text */
 }
 
 
@@ -44,6 +44,20 @@ html, body {
     color: #dce4f3 !important;
 }
 
+/* Navigation Bar */
+.nav-tabs .nav-link {
+    border: 1px solid #252525;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000000;
+    background-color: #f0f0f0;
+    border-color: #385f71;
+}
+.nav-tabs {
+    border-bottom: 1px solid #f0f0f0 !important;
+}
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
@@ -93,10 +107,6 @@ a:not(#header .navbar-status a,
     color: #5b6270 !important;
     text-decoration: none !important;
     transition: color 0.3s ease-in-out !important;
-}
-
-#header .navbar-status a {
-    color: #dce4f3 !important;
 }
 
 a:hover {
