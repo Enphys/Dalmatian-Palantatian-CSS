@@ -1,0 +1,246 @@
+/* Dalmatian Plantatian Custom CSS */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Boogaloo&display=swap');
+
+/* Apply fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Carter One', sans-serif; /* Headers */
+}
+
+body, p, span, li, a {
+    font-family: 'Boogaloo', sans-serif; /* Body text */
+}
+
+
+/* Custom Cursor */
+body {
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto !important;
+}
+
+a:hover {
+    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
+}
+
+/* Background */
+html, body {
+    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: #e5d2b8 !important; /* Light beige for text */
+    font-family: 'Merienda', cursive !important;
+    height: 100% !important;
+    min-height: 100vh !important;
+}
+
+/* Den crossroads hoard chatter news event grove help */
+#header .navbar-main {
+    position: relative;
+    background-color: #403832;
+    min-height: 56px;
+}
+/* WELCOME BACK */
+#header .navbar-status {
+    background-color: #a48065;
+    color: #fff;
+    height: 37px;
+}
+
+/* Content & Sidebar Styling */
+#main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
+    background: #433832 !important; /* Dark earthy brown */
+    border: 2px solid #9b6d44 !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+.table .left {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
+.bg-tertiary {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
+.bottom {
+    background-color: #dfcaab !important; /* Adjust to match your theme */
+}
+
+/* Target ONLY the bank section */
+#main .row.mb-4:has(.card input[name="currency"]) .card {
+    background-color: #d3bc97 !important;
+    color: #a48065 !important;
+    border: 2px solid #433832 !important;
+}
+
+/* Remove striped effect from the table */
+.table-striped tbody tr:nth-of-type(odd),
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #a48065 !important; /* Set a single uniform background color */
+}
+
+/* Target Hoard Item Containers */
+#fraHoardList .col-4.col-md-3.col-xl-2.mb-2 {
+    background-color: #8c6754 !important; /* Darker background */
+    border: 2px solid #8c6754 !important;
+    border-radius: 8px !important;
+    padding: 5px !important;
+}
+
+/* Target small text on all group forum pages */
+#main table.small, 
+#main table td small, 
+#main table th small {
+    color: #433832 !important; /* Light beige to match theme */
+}
+
+/* Target links within forum posts */
+#main table a, 
+#main table td a, 
+#main table th a {
+    color: #f6ebdc !important; /* Warm brown for links */
+    text-decoration: none !important;
+}
+
+/* Header Styling */
+#header {
+    background: #403832 !important;
+    color: #e5d2b8 !important;
+    text-align: center !important;
+    padding: 15px 0 !important;
+    font-family: 'Merienda', cursive !important;
+    border-bottom: 2px solid #9b6d44 !important;
+}
+
+/* Navigation Bar */
+.nav-tabs .nav-link {
+    border: 1px solid #221e16;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000000;
+    background-color: #dfcaab;
+    border-color: #a48065;
+}
+.nav-tabs {
+    border-bottom: 1px solid #d3bc97 !important;
+}
+
+/* Home Tag Groupname */
+#header .breadcrumb-nav {
+    background-color: #dfcaab;
+}
+.breadcrumb-item.active {
+    color: #000000;
+}
+
+/* Bookmark */
+.text-danger {
+    color: #221e16 !important;
+}
+.alert-info {
+    color: #000000;
+    background-color: #d3bc97;
+    border-color: #221e16;
+}
+
+/* All side cards */
+#sidebar .card {
+    border: 1px solid #000000;
+    border-bottom: 8px solid #403832;
+    background-color: #a48065;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5%;
+    color: #ffffff;
+}
+#sidebar #card-user a img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+element.style {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    border: none !important;
+    border-radius: 50%;
+}
+div.progress {
+    background: #b3996f!important;
+    border: solid 2px #00000;
+}
+
+#sidebar {
+    background: none !important; /* Removes any default background */
+}
+
+/* Titles */
+h1, h2, h3 {
+    font-family: 'Merienda', cursive !important;
+    color: #e5d2b8 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Announcements */
+.card-footer {
+    background-color: #a48065 !important; /* Match your theme */
+    color: #e5d2b8 !important; /* Adjust to a readable color */
+}
+
+.card-footer a {
+    color: #403832 !important; /* Link color */
+}
+
+.card-footer a:hover {
+    color: #ffba5a !important; /* Hover effect */
+}
+
+
+/* Links */
+a {
+    color: #e0dad0 !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease-in-out !important;
+}
+
+a:hover {
+    color: #ffba5a !important;
+    text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8) !important;
+}
+
+/* Buttons */
+button {
+    background: #9b6d44 !important;
+    color: #e5d2b8 !important;
+    border: none !important;
+    padding: 8px 12px !important;
+    font-family: 'Merienda', cursive !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+}
+
+button:hover {
+    background: #b07a50 !important;
+    text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
+}
+
+/* Table Styling */
+table, th, td {
+    border: 1px solid #9b6d44 !important;
+    padding: 5px !important;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9b6d44 !important;
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #433832 !important;
+}
