@@ -83,14 +83,17 @@ a {
 
 a:hover {
     color: #ffffff !important;
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8) !important;
+}
+
+#sidebar {
+    background: none !important; /* Removes any default background */
 }
 
 /* Buttons */
 button {
     background: #5b6270 !important;
     color: #e5d2b8 !important;
-    border: none !important;
+    border: #252525 !important;
     padding: 8px 12px !important;
     font-family: 'Boogaloo', cursive !important;
     cursor: pointer !important;
