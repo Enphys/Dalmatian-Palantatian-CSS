@@ -39,10 +39,8 @@ html, body {
 }
 
 /* Change color of Modbox, Messages, and currency text */
-#header .navbar-status a,
-.navbar-status .nav-link a,
-.navbar-status a.dib {
-    color: #dce4f3 !important; /* Light blue color */
+#header .navbar-status a {
+    color: #dce4f3 !important; /* Light blue text */
 }
 
 /* Content & Sidebar Styling */
