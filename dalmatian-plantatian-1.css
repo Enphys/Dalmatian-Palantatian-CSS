@@ -24,7 +24,7 @@ a:hover {
 
 /* Background */
 html, body {
-    background: url('https://64.media.tumblr.com/5a9080f2ea484d51d0dd5e57905c416c/f67287d71a49c757-94/s2048x3072/5d3082ea339fbc0d5b8f4b78e610b657a69e6a14.pnj') no-repeat center center fixed !important;
+    background: url('https://64.media.tumblr.com/10bdf6be83fd6f520a97848e57895bfe/4e9f7808faa92b8c-58/s1280x1920/234227bca3c79a429e9aa05eb521efd1d152d905.webp') no-repeat center center fixed !important;
     background-size: cover !important;
     color: #e5d2b8 !important; /* Light beige for text */
     font-family: 'Merienda', cursive !important;
@@ -35,34 +35,34 @@ html, body {
 /* Den crossroads hoard chatter news event grove help */
 #header .navbar-main {
     position: relative;
-    background-color: #403832;
+    background-color: #252525;
     min-height: 56px;
 }
 /* WELCOME BACK */
 #header .navbar-status {
-    background-color: #a48065;
+    background-color: #bccae4;
     color: #fff;
     height: 37px;
 }
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
-    background: #433832 !important; /* Dark earthy brown */
-    border: 2px solid #9b6d44 !important;
+    background: #5b6270 !important; /* Dark earthy brown */
+    border: 2px solid #252525 !important;
     padding: 10px !important;
     border-radius: 10px !important;
 }
 
 .table .left {
-    background-color: #dfcaab !important; /* Adjust to match your theme */
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
 }
 
 .bg-tertiary {
-    background-color: #dfcaab !important; /* Adjust to match your theme */
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
 }
 
 .bottom {
-    background-color: #dfcaab !important; /* Adjust to match your theme */
+    background-color: #dce4f3 !important; /* Adjust to match your theme */
 }
 
 /* Target ONLY the bank section */
@@ -75,13 +75,13 @@ html, body {
 /* Remove striped effect from the table */
 .table-striped tbody tr:nth-of-type(odd),
 .table-striped tbody tr:nth-of-type(even) {
-    background-color: #a48065 !important; /* Set a single uniform background color */
+    background-color: #dce4f3 !important; /* Set a single uniform background color */
 }
 
 /* Target Hoard Item Containers */
 #fraHoardList .col-4.col-md-3.col-xl-2.mb-2 {
-    background-color: #8c6754 !important; /* Darker background */
-    border: 2px solid #8c6754 !important;
+    background-color: #5b6270 !important; /* Darker background */
+    border: 2px solid #5b6270 !important;
     border-radius: 8px !important;
     padding: 5px !important;
 }
