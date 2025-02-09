@@ -34,10 +34,8 @@ html, body {
 }
 
 /* WELCOME BACK */
-#header .navbar-status {
-    background-color: #385f71;
-    color: #fff;
-    height: 37px;
+.navbar-text {
+    color: #dce4f3 !important; /* Change text color to match your theme */
 }
 
 /* Content & Sidebar Styling */
