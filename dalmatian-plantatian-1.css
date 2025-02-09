@@ -10,8 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body, p, span, li, a {
     font-family: 'Boogaloo', sans-serif; /* Body text */
-    color: #dce4f3 !important; /* Light blueish text */
+    color: #5b6270 !important; /* Light blueish text */
 }
+
 
 /* Custom Cursor */
 body {
@@ -31,6 +32,16 @@ html, body {
     height: 100% !important;
     min-height: 100vh !important;
 }
+
+/* WELCOME BACK */
+.navbar-text {
+    color: #dce4f3 !important; /* Change text color to match your theme */
+}
+
+#header .navbar-status a {
+    color: #dce4f3 !important; /* Light blue text for Messages & Modbox */
+}
+
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
@@ -70,7 +81,6 @@ html, body {
 h1, h2, h3 {
     font-family: 'Boogaloo', cursive !important;
     color: #e5d2b8 !important;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Links */
@@ -82,14 +92,17 @@ a {
 
 a:hover {
     color: #ffffff !important;
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8) !important;
+}
+
+#sidebar {
+    background: none !important; /* Removes any default background */
 }
 
 /* Buttons */
 button {
     background: #5b6270 !important;
     color: #e5d2b8 !important;
-    border: none !important;
+    border: #252525 !important;
     padding: 8px 12px !important;
     font-family: 'Boogaloo', cursive !important;
     cursor: pointer !important;
