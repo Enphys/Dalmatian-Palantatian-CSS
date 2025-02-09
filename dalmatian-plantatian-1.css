@@ -13,6 +13,10 @@ body, p, span, li, a {
     color: #dddee2 !important; /* Light blueish text */
 }
 
+.card-footer {
+    background-color: #f0f0f0 !important; /* Match your theme */
+    color: #5b6270 !important; /* Adjust to a readable color */
+}
 
 /* Custom Cursor */
 body {
