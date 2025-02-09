@@ -33,6 +33,12 @@ html, body {
     min-height: 100vh !important;
 }
 
+/* WELCOME BACK */
+#header .navbar-status {
+    color: #dce4f3;
+    height: 37px;
+}
+
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
     background: #dce4f3 !important; /* Dark earthy brown */
