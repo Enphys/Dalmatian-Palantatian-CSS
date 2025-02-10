@@ -64,7 +64,12 @@ html, body {
     background-color: #5b6270 !important;
     color: #dce4f3 !important;
     border: 2px solid #252525 !important;
-    background: #a0a8ba !important
+}
+
+#main .card {
+    border: 0;
+    background: #c7e0a2;
+    margin-bottom: 1rem
 }
 
 /* Remove striped effect from the table */
