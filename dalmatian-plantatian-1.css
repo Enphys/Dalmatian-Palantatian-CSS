@@ -59,18 +59,11 @@ html, body {
 .progress
     background-color: #ffffff !important;
 
-/* Target ONLY the bank withdraw and deposit boxes */
-#main .row.mb-4 .card {
-    background: #a0a8ba !important; /* Ensure this applies */
-    color: #dce4f3 !important;
+/* Target ONLY the bank section */
+#main .row.mb-4:has(.card input[name="bank"]) .card {
+    background-color: #a0a8ba !important;
+    color: #5b6270 !important;
     border: 2px solid #252525 !important;
-}
-
-#main .row.mb-4 .card,
-#main .row.mb-4 .card-header,
-#main .row.mb-4 .card-body {
-    background: #a0a8ba !important; /* Background for cards, headers, and body */
-    border: 2px solid #252525 !important; /* Border styling */
 }
 
 /* Ensures .card-header specifically gets the background */
