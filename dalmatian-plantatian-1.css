@@ -66,13 +66,6 @@ html, body {
     border: 2px solid #252525 !important;
 }
 
-/* Target the Banked Cones boxes */
-#main .row.mb-4 .card[data-form="bank"] {
-    background-color: #a0a8ba !important; /* New background color */
-    color: #252525 !important; /* Text color */
-    border: 2px solid #252525 !important; /* Border */
-}
-
 /* Remove striped effect from the table */
 .table-striped tbody tr:nth-of-type(odd),
 .table-striped tbody tr:nth-of-type(even) {
