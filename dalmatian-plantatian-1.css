@@ -64,6 +64,7 @@ html, body {
     background-color: #5b6270 !important;
     color: #dce4f3 !important;
     border: 2px solid #252525 !important;
+    background: #a0a8ba !important
 }
 
 /* Remove striped effect from the table */
@@ -97,7 +98,7 @@ html, body {
 
 /* Forum text box background */
 #main .forum-post {
-    background: #95a6c5 !important; /* Replace with your desired color */
+    background: #abbad6 !important; /* Replace with your desired color */
     border: 2px solid #5b6270 !important; /* Match theme */
 }
 
@@ -131,7 +132,7 @@ html, body {
 
 /* Home Tag Groupname */
 #header .breadcrumb-nav {
-    background-color: #f0f0f0;
+    background-color: #f2f2f2;
 }
 .breadcrumb-item.active {
     color: #000000;
@@ -232,8 +233,8 @@ button {
 }
 
 button:hover {
-    background: #b07a50 !important;
-    text-shadow: 0px 0px 5px rgba(255, 200, 120, 0.8) !important;
+    background: #f2f2f2 !important;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Table Styling */
