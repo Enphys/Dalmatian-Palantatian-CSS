@@ -30,7 +30,7 @@ html, body {
 }
 /* WELCOME BACK */
 #header .navbar-status {
-    background-color: #f0f0f0;
+    background-color: #385f71;
     color: #fff;
     height: 37px;
 }
@@ -54,6 +54,10 @@ html, body {
 .bottom {
     background-color: #dce4f3 !important; /* Adjust to match your theme */
 }
+
+/* Energy Hunger HP EXP bars */
+.progress
+    background-color: #ffffff !important;
 
 /* Target ONLY the bank section */
 #main .row.mb-4:has(.card input[name="currency"]) .card {
@@ -121,7 +125,7 @@ html, body {
 
 /* Home Tag Groupname */
 #header .breadcrumb-nav {
-    background-color: #dfcaab;
+    background-color: #f0f0f0;
 }
 .breadcrumb-item.active {
     color: #000000;
