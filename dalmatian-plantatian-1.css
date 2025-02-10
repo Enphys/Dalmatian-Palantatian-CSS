@@ -66,10 +66,18 @@ html, body {
     border: 2px solid #252525 !important;
 }
 
-/* Optional: Target card body separately if needed */
-#main .row.mb-4 .card .card-body {
-    background: #a0a8ba !important;
+#main .row.mb-4 .card,
+#main .row.mb-4 .card-header,
+#main .row.mb-4 .card-body {
+    background: #a0a8ba !important; /* Background for cards, headers, and body */
+    border: 2px solid #252525 !important; /* Border styling */
 }
+
+/* Ensures .card-header specifically gets the background */
+#main .row.mb-4 .card-header {
+    background: #5b6270 !important; /* Different background for header */
+}
+
 
 /* Remove striped effect from the table */
 .table-striped tbody tr:nth-of-type(odd),
