@@ -5,11 +5,11 @@
 
 /* Custom Cursor */
 body {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), auto !important;
+    cursor: url('https://64.media.tumblr.com/24421a2dbc21a6eb179eba3d58d42946/c5733a36dd364d30-cd/s75x75_c1/e7ada65819a22afa3da6c1cc747fba38559ffd2c.pnj'), auto !important;
 }
 
 a:hover {
-    cursor: url('https://static.wolvden.com/images/games/fishing/ui/cursor.png'), pointer !important;
+    cursor: url('https://64.media.tumblr.com/24421a2dbc21a6eb179eba3d58d42946/c5733a36dd364d30-cd/s75x75_c1/e7ada65819a22afa3da6c1cc747fba38559ffd2c.pnj'), pointer !important;
 }
 
 /* Background */
@@ -37,7 +37,8 @@ html, body {
 
 /* Content & Sidebar Styling */
 #main, .container, .box, .content, .main-content, .inner-content, .forum-table, .forum-post, .chat-message {
-    background: #bccae4 !important;
+    background: url('https://64.media.tumblr.com/25476b8c82f08257301217144512f6f1/61fb152c209b0b29-15/s1280x1920/ddb43134161c66ec367707884e320c29b247cf5c.pnj') no-repeat center center !important;
+    background-size: cover !important;
     border: 2px solid #252525 !important;
     padding: 10px !important;
     border-radius: 10px !important;
