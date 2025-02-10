@@ -176,7 +176,6 @@ div.progress {
 h1, h2, h3 {
     font-family: 'Carter+One', cursive !important;
     color: #5b6270 !important;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Announcements */
@@ -198,6 +197,10 @@ h1, h2, h3 {
     color: #5b6270 !important;
 }
 
+/* Polls */
+#group_poll_block tr td {
+    color: #5b6270 !important; /* poll answer text color */
+}
 
 /* Links */
 a {
