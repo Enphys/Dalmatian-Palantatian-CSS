@@ -172,10 +172,6 @@ div.progress {
     background: none !important; /* Removes any default background */
 }
 
-#card-body {
-    background: #dce4f3
-}
-
 /* Titles */
 h1, h2, h3 {
     font-family: 'Carter+One', cursive !important;
@@ -195,6 +191,10 @@ h1, h2, h3 {
 
 .card-footer a:hover {
     color: #ffffff !important; /* Hover effect */
+}
+
+#group_announcement_block .card-body {
+    background: #dce4f3
 }
 
 
