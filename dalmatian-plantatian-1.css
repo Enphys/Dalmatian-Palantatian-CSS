@@ -59,17 +59,18 @@ html, body {
 .progress
     background-color: #ffffff !important;
 
-/* Target ONLY the bank section */
+/* Target ONLY the bank withdraw and deposit boxes */
 #main .row.mb-4:has(.card input[name="currency"]) .card {
     background-color: #5b6270 !important;
     color: #dce4f3 !important;
     border: 2px solid #252525 !important;
 }
 
-#main .card {
-    border: 0;
-    background: #c7e0a2;
-    margin-bottom: 1rem
+/* Target the Banked Cones boxes */
+#main .row.mb-4 .card[data-form="bank"] {
+    background-color: #a0a8ba !important; /* New background color */
+    color: #252525 !important; /* Text color */
+    border: 2px solid #252525 !important; /* Border */
 }
 
 /* Remove striped effect from the table */
