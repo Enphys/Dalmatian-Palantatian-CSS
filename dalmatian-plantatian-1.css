@@ -211,7 +211,7 @@ a {
 
 a:hover {
     color: #ffffff !important;
-    text-shadow: 0px 0px 6px rgba(255, 186, 90, 0.8) !important;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8);
 }
 
 /* Buttons */
