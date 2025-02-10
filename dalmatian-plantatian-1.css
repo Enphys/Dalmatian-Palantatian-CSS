@@ -71,7 +71,9 @@ html, body {
 #main .row.mb-4 .card-header {
     background: #5b6270 !important; /* Different background for header */
 }
-
+#main .row.mb-4 .card-body {
+    background: #a0a8ba !important; /* Different background for body */
+}
 
 /* Remove striped effect from the table */
 .table-striped tbody tr:nth-of-type(odd),
