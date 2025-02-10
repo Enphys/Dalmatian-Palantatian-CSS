@@ -56,17 +56,18 @@ html, body {
 }
 
 /* Energy Hunger HP EXP bars */
-.progress
+.progress {
     background-color: #ffffff !important;
-
-/* Target ONLY the bank section */
-#main .row.mb-4:has(.card input[name="bank"]) .card {
-    background-color: #a0a8ba !important;
-    color: #5b6270 !important;
-    border: 2px solid #252525 !important;
 }
 
-/* Ensures .card-header specifically gets the background */
+/* Target ONLY the bank section */
+#main .row.mb-4 .card[data-form="bank"] {
+    background-color: #a0a8ba !important; /* Correct Background */
+    color: #5b6270 !important; /* Text color */
+    border: 2px solid #252525 !important; /* Border */
+}
+
+/* Ensures .card-header in bank specifically gets the background */
 #main .row.mb-4 .card-header {
     background: #5b6270 !important; /* Different background for header */
 }
