@@ -16,7 +16,7 @@ a:hover {
 html, body {
     background: url('https://64.media.tumblr.com/e132dd5850c719a9afc4c81a86086a83/ee62b7d0b66f839f-0e/s1280x1920/e0d7926a0e5901a98d2b6e59a98f2da77684e6ae.pnj') no-repeat center center fixed !important;
     background-size: cover !important;
-    color: #dce4f3 !important; /* Light beige for text */
+    color: #dce4f3 /* Light beige for text */
     font-family: 'Boogaloo', cursive !important;
     height: 100% !important;
     min-height: 100vh !important;
