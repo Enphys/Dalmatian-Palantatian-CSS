@@ -84,15 +84,21 @@ html, body {
 #main table.small, 
 #main table td small, 
 #main table th small {
-    color: #433832 !important; /* Light beige to match theme */
+    color: #433832 !important; /* Match theme */
 }
 
 /* Target links within forum posts */
 #main table a, 
 #main table td a, 
 #main table th a {
-    color: #385f71 !important; /* Warm brown for links */
+    color: #385f71 !important; /* color for links */
     text-decoration: none !important;
+}
+
+/* Forum text box background */
+#main .forum-post {
+    background: #95a6c5 !important; /* Replace with your desired color */
+    border: 2px solid #5b6270 !important; /* Match theme */
 }
 
 /* Header Styling */
