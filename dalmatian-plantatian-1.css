@@ -60,7 +60,7 @@ html, body {
     background-color: #ffffff !important;
 
 /* Target ONLY the bank withdraw and deposit boxes */
-#main .row.mb-4:has(.card input[name="currency"]) .card {
+#main .row.mb-4 * {
     background: #a0a8ba !important;
     background-color: #5b6270 !important;
     color: #dce4f3 !important;
