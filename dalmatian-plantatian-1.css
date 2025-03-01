@@ -22,6 +22,10 @@ html, body {
     min-height: 100vh !important;
 }
 
+body {
+    color: #252525;
+}
+
 /* Den crossroads hoard chatter news event grove help */
 #header .navbar-main {
     position: relative;
